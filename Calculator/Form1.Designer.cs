@@ -40,10 +40,13 @@
             this.b0 = new System.Windows.Forms.Button();
             this.input = new System.Windows.Forms.Label();
             this.output = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.bShare = new System.Windows.Forms.Button();
+            this.bMultiply = new System.Windows.Forms.Button();
+            this.bMinus = new System.Windows.Forms.Button();
+            this.bPlus = new System.Windows.Forms.Button();
+            this.bEqually = new System.Windows.Forms.Button();
+            this.bClear = new System.Windows.Forms.Button();
+            this.bRemove = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // b1
@@ -64,6 +67,7 @@
             this.b2.TabIndex = 1;
             this.b2.Text = "2";
             this.b2.UseVisualStyleBackColor = true;
+            this.b2.Click += new System.EventHandler(this.b2_Click);
             // 
             // b3
             // 
@@ -73,6 +77,7 @@
             this.b3.TabIndex = 2;
             this.b3.Text = "3";
             this.b3.UseVisualStyleBackColor = true;
+            this.b3.Click += new System.EventHandler(this.b3_Click);
             // 
             // b4
             // 
@@ -82,6 +87,7 @@
             this.b4.TabIndex = 3;
             this.b4.Text = "4";
             this.b4.UseVisualStyleBackColor = true;
+            this.b4.Click += new System.EventHandler(this.b4_Click);
             // 
             // b5
             // 
@@ -91,6 +97,7 @@
             this.b5.TabIndex = 4;
             this.b5.Text = "5";
             this.b5.UseVisualStyleBackColor = true;
+            this.b5.Click += new System.EventHandler(this.b5_Click);
             // 
             // b6
             // 
@@ -100,6 +107,7 @@
             this.b6.TabIndex = 5;
             this.b6.Text = "6";
             this.b6.UseVisualStyleBackColor = true;
+            this.b6.Click += new System.EventHandler(this.b6_Click);
             // 
             // b9
             // 
@@ -109,6 +117,7 @@
             this.b9.TabIndex = 8;
             this.b9.Text = "9";
             this.b9.UseVisualStyleBackColor = true;
+            this.b9.Click += new System.EventHandler(this.b9_Click);
             // 
             // b8
             // 
@@ -118,6 +127,7 @@
             this.b8.TabIndex = 7;
             this.b8.Text = "8";
             this.b8.UseVisualStyleBackColor = true;
+            this.b8.Click += new System.EventHandler(this.b8_Click);
             // 
             // b7
             // 
@@ -127,6 +137,7 @@
             this.b7.TabIndex = 6;
             this.b7.Text = "7";
             this.b7.UseVisualStyleBackColor = true;
+            this.b7.Click += new System.EventHandler(this.b7_Click);
             // 
             // b0
             // 
@@ -136,72 +147,109 @@
             this.b0.TabIndex = 9;
             this.b0.Text = "0";
             this.b0.UseVisualStyleBackColor = true;
+            this.b0.Click += new System.EventHandler(this.b0_Click);
             // 
             // input
             // 
-            this.input.AutoSize = true;
             this.input.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.input.Location = new System.Drawing.Point(218, 70);
+            this.input.Location = new System.Drawing.Point(-2, 119);
             this.input.Name = "input";
-            this.input.Size = new System.Drawing.Size(68, 29);
+            this.input.Size = new System.Drawing.Size(306, 37);
             this.input.TabIndex = 10;
-            this.input.Text = "0-4-5";
+            this.input.Text = "0";
+            this.input.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // output
             // 
-            this.output.AutoSize = true;
             this.output.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.output.Location = new System.Drawing.Point(218, 121);
+            this.output.Location = new System.Drawing.Point(-1, 55);
             this.output.Name = "output";
-            this.output.Size = new System.Drawing.Size(68, 29);
+            this.output.Size = new System.Drawing.Size(305, 37);
             this.output.TabIndex = 11;
-            this.output.Text = "0-4-5";
+            this.output.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // button1
+            // bShare
             // 
-            this.button1.Location = new System.Drawing.Point(64, 347);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(51, 45);
-            this.button1.TabIndex = 15;
-            this.button1.Text = "/";
-            this.button1.UseVisualStyleBackColor = true;
+            this.bShare.Location = new System.Drawing.Point(64, 347);
+            this.bShare.Name = "bShare";
+            this.bShare.Size = new System.Drawing.Size(51, 45);
+            this.bShare.TabIndex = 15;
+            this.bShare.Text = "/";
+            this.bShare.UseVisualStyleBackColor = true;
+            this.bShare.Click += new System.EventHandler(this.bShare_Click);
             // 
-            // button2
+            // bMultiply
             // 
-            this.button2.Location = new System.Drawing.Point(64, 296);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(51, 45);
-            this.button2.TabIndex = 14;
-            this.button2.Text = "*";
-            this.button2.UseVisualStyleBackColor = true;
+            this.bMultiply.Location = new System.Drawing.Point(64, 296);
+            this.bMultiply.Name = "bMultiply";
+            this.bMultiply.Size = new System.Drawing.Size(51, 45);
+            this.bMultiply.TabIndex = 14;
+            this.bMultiply.Text = "*";
+            this.bMultiply.UseVisualStyleBackColor = true;
+            this.bMultiply.Click += new System.EventHandler(this.bMultiply_Click);
             // 
-            // button3
+            // bMinus
             // 
-            this.button3.Location = new System.Drawing.Point(64, 245);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(51, 45);
-            this.button3.TabIndex = 13;
-            this.button3.Text = "-";
-            this.button3.UseVisualStyleBackColor = true;
+            this.bMinus.Location = new System.Drawing.Point(64, 245);
+            this.bMinus.Name = "bMinus";
+            this.bMinus.Size = new System.Drawing.Size(51, 45);
+            this.bMinus.TabIndex = 13;
+            this.bMinus.Text = "-";
+            this.bMinus.UseVisualStyleBackColor = true;
+            this.bMinus.Click += new System.EventHandler(this.bMinus_Click);
             // 
-            // button4
+            // bPlus
             // 
-            this.button4.Location = new System.Drawing.Point(64, 194);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(51, 45);
-            this.button4.TabIndex = 12;
-            this.button4.Text = "+";
-            this.button4.UseVisualStyleBackColor = true;
+            this.bPlus.Location = new System.Drawing.Point(64, 194);
+            this.bPlus.Name = "bPlus";
+            this.bPlus.Size = new System.Drawing.Size(51, 45);
+            this.bPlus.TabIndex = 12;
+            this.bPlus.Text = "+";
+            this.bPlus.UseVisualStyleBackColor = true;
+            this.bPlus.Click += new System.EventHandler(this.bPlus_Click);
+            // 
+            // bEqually
+            // 
+            this.bEqually.Location = new System.Drawing.Point(235, 347);
+            this.bEqually.Name = "bEqually";
+            this.bEqually.Size = new System.Drawing.Size(51, 45);
+            this.bEqually.TabIndex = 16;
+            this.bEqually.Text = "=";
+            this.bEqually.UseVisualStyleBackColor = true;
+            this.bEqually.Click += new System.EventHandler(this.bEqually_Click);
+            // 
+            // bClear
+            // 
+            this.bClear.Location = new System.Drawing.Point(3, 245);
+            this.bClear.Name = "bClear";
+            this.bClear.Size = new System.Drawing.Size(51, 45);
+            this.bClear.TabIndex = 18;
+            this.bClear.Text = "C";
+            this.bClear.UseVisualStyleBackColor = true;
+            this.bClear.Click += new System.EventHandler(this.bClear_Click);
+            // 
+            // bRemove
+            // 
+            this.bRemove.Location = new System.Drawing.Point(3, 194);
+            this.bRemove.Name = "bRemove";
+            this.bRemove.Size = new System.Drawing.Size(51, 45);
+            this.bRemove.TabIndex = 17;
+            this.bRemove.Text = "<-";
+            this.bRemove.UseVisualStyleBackColor = true;
+            this.bRemove.Click += new System.EventHandler(this.bRemove_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(304, 415);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.bClear);
+            this.Controls.Add(this.bRemove);
+            this.Controls.Add(this.bEqually);
+            this.Controls.Add(this.bShare);
+            this.Controls.Add(this.bMultiply);
+            this.Controls.Add(this.bMinus);
+            this.Controls.Add(this.bPlus);
             this.Controls.Add(this.output);
             this.Controls.Add(this.input);
             this.Controls.Add(this.b0);
@@ -217,7 +265,6 @@
             this.Name = "Form1";
             this.Text = "Calculator";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -235,10 +282,13 @@
         private System.Windows.Forms.Button b0;
         private System.Windows.Forms.Label input;
         private System.Windows.Forms.Label output;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button bShare;
+        private System.Windows.Forms.Button bMultiply;
+        private System.Windows.Forms.Button bMinus;
+        private System.Windows.Forms.Button bPlus;
+        private System.Windows.Forms.Button bEqually;
+        private System.Windows.Forms.Button bClear;
+        private System.Windows.Forms.Button bRemove;
     }
 }
 
