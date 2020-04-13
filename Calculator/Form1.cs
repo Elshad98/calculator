@@ -16,5 +16,10 @@ namespace Calculator
         {
             InitializeComponent();
         }
+
+        private void b1_Click(object sender, EventArgs e)
+        {
+            input.Text += "1";
+        }
     }
 }
