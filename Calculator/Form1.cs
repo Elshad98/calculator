@@ -81,9 +81,12 @@ namespace Calculator
             {
                 result = firstNumber / secondNumber;
             }
+            else if (act == "%")
+            {
+                result = firstNumber * secondNumber / 100;
+            }
 
-            act = "=";
-            isSecondNumber = true;
+            ChangeAct();
             input.Text = result.ToString();
         }
 
@@ -92,8 +95,7 @@ namespace Calculator
             double result, number;
             number = Convert.ToDouble(input.Text);
             result = Math.Sqrt(number);
-            act = "=";
-            isSecondNumber = true;
+            ChangeAct();
             input.Text = result.ToString();
         }
 
@@ -102,9 +104,41 @@ namespace Calculator
             double result, number;
             number = Convert.ToDouble(input.Text);
             result = Math.Pow(number, 2);
+            ChangeAct();
+            input.Text = result.ToString();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            double result, number;
+            number = Convert.ToDouble(input.Text);
+            result = 1 / number;
+            result = 1 / number;
+            ChangeAct();
+            input.Text = result.ToString();
+        }
+
+        private void ChangeAct()
+        {
             act = "=";
             isSecondNumber = true;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            double result, number;
+            number = Convert.ToDouble(input.Text);
+            result = -number;
+            ChangeAct();
             input.Text = result.ToString();
+        }
+
+        private void bDot_Click(object sender, EventArgs e)
+        {
+            if (!input.Text.Contains(","))
+            {
+                input.Text += ",";
+            }
         }
     }
 }

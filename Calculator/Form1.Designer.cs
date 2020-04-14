@@ -46,10 +46,10 @@
             this.bEqually = new System.Windows.Forms.Button();
             this.bClear = new System.Windows.Forms.Button();
             this.bRemove = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.bDot = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.bPercent = new System.Windows.Forms.Button();
             this.bSquareRoot = new System.Windows.Forms.Button();
             this.bSquare = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
@@ -251,15 +251,16 @@
             this.bRemove.UseVisualStyleBackColor = true;
             this.bRemove.Click += new System.EventHandler(this.bRemove_Click);
             // 
-            // button1
+            // bDot
             // 
-            this.button1.Location = new System.Drawing.Point(126, 426);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(51, 45);
-            this.button1.TabIndex = 19;
-            this.button1.TabStop = false;
-            this.button1.Text = ",";
-            this.button1.UseVisualStyleBackColor = true;
+            this.bDot.Location = new System.Drawing.Point(126, 426);
+            this.bDot.Name = "bDot";
+            this.bDot.Size = new System.Drawing.Size(51, 45);
+            this.bDot.TabIndex = 19;
+            this.bDot.TabStop = false;
+            this.bDot.Text = ",";
+            this.bDot.UseVisualStyleBackColor = true;
+            this.bDot.Click += new System.EventHandler(this.bDot_Click);
             // 
             // button2
             // 
@@ -270,6 +271,7 @@
             this.button2.TabStop = false;
             this.button2.Text = "±";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -281,15 +283,16 @@
             this.button3.Text = "CE";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // bPercent
             // 
-            this.button4.Location = new System.Drawing.Point(12, 171);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(51, 45);
-            this.button4.TabIndex = 25;
-            this.button4.TabStop = false;
-            this.button4.Text = "%";
-            this.button4.UseVisualStyleBackColor = true;
+            this.bPercent.Location = new System.Drawing.Point(12, 171);
+            this.bPercent.Name = "bPercent";
+            this.bPercent.Size = new System.Drawing.Size(51, 45);
+            this.bPercent.TabIndex = 25;
+            this.bPercent.TabStop = false;
+            this.bPercent.Text = "%";
+            this.bPercent.UseVisualStyleBackColor = true;
+            this.bPercent.Click += new System.EventHandler(this.bShare_Click);
             // 
             // bSquareRoot
             // 
@@ -322,6 +325,7 @@
             this.button7.TabStop = false;
             this.button7.Text = "1/x";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // b1
             // 
@@ -340,13 +344,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(250, 477);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.bPercent);
             this.Controls.Add(this.bSquareRoot);
             this.Controls.Add(this.bSquare);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.bDot);
             this.Controls.Add(this.bClear);
             this.Controls.Add(this.bRemove);
             this.Controls.Add(this.bEqually);
@@ -394,10 +398,10 @@
         private System.Windows.Forms.Button bEqually;
         private System.Windows.Forms.Button bClear;
         private System.Windows.Forms.Button bRemove;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button bDot;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button bPercent;
         private System.Windows.Forms.Button bSquareRoot;
         private System.Windows.Forms.Button bSquare;
         private System.Windows.Forms.Button button7;
