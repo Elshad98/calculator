@@ -12,89 +12,17 @@ namespace Calculator
 {
     public partial class Form1 : Form
     {
+        private string act;
+        private string number;
+        private bool isSecondNumber = false;
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void b1_Click(object sender, EventArgs e)
-        {
-            input.Text += "1";
-        }
-
-        private void b2_Click(object sender, EventArgs e)
-        {
-            input.Text += "2";
-        }
-
-        private void b3_Click(object sender, EventArgs e)
-        {
-            input.Text += "3";
-        }
-
-        private void b4_Click(object sender, EventArgs e)
-        {
-            input.Text += "4";
-        }
-
-        private void b5_Click(object sender, EventArgs e)
-        {
-            input.Text += "5";
-        }
-
-        private void b6_Click(object sender, EventArgs e)
-        {
-            input.Text += "6";
-        }
-
-        private void b7_Click(object sender, EventArgs e)
-        {
-            input.Text += "7";
-        }
-
-        private void b8_Click(object sender, EventArgs e)
-        {
-            input.Text += "8";
-        }
-
-        private void b9_Click(object sender, EventArgs e)
-        {
-            input.Text += "9";
-        }
-
-        private void b0_Click(object sender, EventArgs e)
-        {
-            input.Text += "0";
-        }
-
-        private void bPlus_Click(object sender, EventArgs e)
-        {
-            input.Text += "+";
-        }
-
-        private void bMinus_Click(object sender, EventArgs e)
-        {
-            input.Text += "-";
-        }
-
-        private void bMultiply_Click(object sender, EventArgs e)
-        {
-            input.Text += "*";
-        }
-
-        private void bShare_Click(object sender, EventArgs e)
-        {
-            input.Text += "/";
-        }
-
-        private void bEqually_Click(object sender, EventArgs e)
-        {
-            input.Text += "/";
-        }
-
         private void bClear_Click(object sender, EventArgs e)
         {
-            input.Text = "";
+            input.Text = "0";
         }
 
         private void bRemove_Click(object sender, EventArgs e)
@@ -103,6 +31,80 @@ namespace Calculator
             {
                 input.Text = input.Text.Remove(input.Text.Length - 1, 1);
             }
+        }
+
+        private void b2_Click(object sender, EventArgs e)
+        {
+            if (isSecondNumber)
+            {
+                isSecondNumber = false;
+                input.Text = "0";
+            }
+            Button B = (Button)sender;
+            if (input.Text == "0")
+            {
+                input.Text = B.Text;
+            }
+            else
+            {
+                input.Text += B.Text;
+            }
+        }
+
+        private void bShare_Click(object sender, EventArgs e)
+        {
+            Button B = (Button)sender;
+            act = B.Text;
+            number = input.Text;
+            isSecondNumber = true;
+        }
+
+        private void bEqually_Click(object sender, EventArgs e)
+        {
+            double firstNumber, secondNumber, result = 0;
+            firstNumber = Convert.ToDouble(number);
+            secondNumber = Convert.ToDouble(input.Text);
+
+            if (act == "+")
+            {
+                result = firstNumber + secondNumber;
+            }
+            else if (act == "*")
+            {
+                result = firstNumber * secondNumber;
+            }
+            else if (act == "-")
+            {
+                result = firstNumber - secondNumber;
+            }
+            else if (act == "/")
+            {
+                result = firstNumber / secondNumber;
+            }
+
+            act = "=";
+            isSecondNumber = true;
+            input.Text = result.ToString();
+        }
+
+        private void bSquareRoot_Click(object sender, EventArgs e)
+        {
+            double result, number;
+            number = Convert.ToDouble(input.Text);
+            result = Math.Sqrt(number);
+            act = "=";
+            isSecondNumber = true;
+            input.Text = result.ToString();
+        }
+
+        private void bSquare_Click(object sender, EventArgs e)
+        {
+            double result, number;
+            number = Convert.ToDouble(input.Text);
+            result = Math.Pow(number, 2);
+            act = "=";
+            isSecondNumber = true;
+            input.Text = result.ToString();
         }
     }
 }
