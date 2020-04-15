@@ -20,20 +20,20 @@ namespace Calculator
             InitializeComponent();
         }
 
-        private void bClear_Click(object sender, EventArgs e)
+        private void clear_Click(object sender, EventArgs e)
         {
             input.Text = "0";
         }
 
-        private void bRemove_Click(object sender, EventArgs e)
+        private void remove_Click(object sender, EventArgs e)
         {
-            if (input.Text.Length > 0)
-            {
-                input.Text = input.Text.Remove(input.Text.Length - 1, 1);
+            input.Text = input.Text.Remove(input.Text.Length - 1, 1);
+            if (input.Text == "") {
+                input.Text = "0";
             }
         }
 
-        private void b2_Click(object sender, EventArgs e)
+        private void two_Click(object sender, EventArgs e)
         {
             if (isSecondNumber)
             {
@@ -51,7 +51,7 @@ namespace Calculator
             }
         }
 
-        private void bShare_Click(object sender, EventArgs e)
+        private void share_Click(object sender, EventArgs e)
         {
             Button B = (Button)sender;
             act = B.Text;
@@ -59,7 +59,7 @@ namespace Calculator
             isSecondNumber = true;
         }
 
-        private void bEqually_Click(object sender, EventArgs e)
+        private void equally_Click(object sender, EventArgs e)
         {
             double firstNumber, secondNumber, result = 0;
             firstNumber = Convert.ToDouble(number);
@@ -90,7 +90,7 @@ namespace Calculator
             input.Text = result.ToString();
         }
 
-        private void bSquareRoot_Click(object sender, EventArgs e)
+        private void squareRoot_Click(object sender, EventArgs e)
         {
             double result, number;
             number = Convert.ToDouble(input.Text);
@@ -99,7 +99,7 @@ namespace Calculator
             input.Text = result.ToString();
         }
 
-        private void bSquare_Click(object sender, EventArgs e)
+        private void square_Click(object sender, EventArgs e)
         {
             double result, number;
             number = Convert.ToDouble(input.Text);
@@ -113,7 +113,6 @@ namespace Calculator
             double result, number;
             number = Convert.ToDouble(input.Text);
             result = 1 / number;
-            result = 1 / number;
             ChangeAct();
             input.Text = result.ToString();
         }
@@ -124,7 +123,7 @@ namespace Calculator
             isSecondNumber = true;
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void plusMinus_Click(object sender, EventArgs e)
         {
             double result, number;
             number = Convert.ToDouble(input.Text);
@@ -133,12 +132,17 @@ namespace Calculator
             input.Text = result.ToString();
         }
 
-        private void bDot_Click(object sender, EventArgs e)
+        private void dot_Click(object sender, EventArgs e)
         {
             if (!input.Text.Contains(","))
             {
                 input.Text += ",";
             }
+        }
+
+        private void cleanEntry_Click(object sender, EventArgs e)
+        {
+            input.Text = "0";
         }
     }
 }

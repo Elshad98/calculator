@@ -28,132 +28,132 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.b2 = new System.Windows.Forms.Button();
-            this.b3 = new System.Windows.Forms.Button();
-            this.b4 = new System.Windows.Forms.Button();
-            this.b5 = new System.Windows.Forms.Button();
-            this.b6 = new System.Windows.Forms.Button();
-            this.b9 = new System.Windows.Forms.Button();
-            this.b8 = new System.Windows.Forms.Button();
-            this.b7 = new System.Windows.Forms.Button();
-            this.b0 = new System.Windows.Forms.Button();
+            this.two = new System.Windows.Forms.Button();
+            this.three = new System.Windows.Forms.Button();
+            this.four = new System.Windows.Forms.Button();
+            this.five = new System.Windows.Forms.Button();
+            this.six = new System.Windows.Forms.Button();
+            this.nine = new System.Windows.Forms.Button();
+            this.eight = new System.Windows.Forms.Button();
+            this.seven = new System.Windows.Forms.Button();
+            this.zero = new System.Windows.Forms.Button();
             this.input = new System.Windows.Forms.Label();
             this.output = new System.Windows.Forms.Label();
-            this.bShare = new System.Windows.Forms.Button();
-            this.bMultiply = new System.Windows.Forms.Button();
-            this.bMinus = new System.Windows.Forms.Button();
-            this.bPlus = new System.Windows.Forms.Button();
-            this.bEqually = new System.Windows.Forms.Button();
-            this.bClear = new System.Windows.Forms.Button();
-            this.bRemove = new System.Windows.Forms.Button();
-            this.bDot = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.bPercent = new System.Windows.Forms.Button();
-            this.bSquareRoot = new System.Windows.Forms.Button();
-            this.bSquare = new System.Windows.Forms.Button();
+            this.share = new System.Windows.Forms.Button();
+            this.multiply = new System.Windows.Forms.Button();
+            this.minus = new System.Windows.Forms.Button();
+            this.plus = new System.Windows.Forms.Button();
+            this.equally = new System.Windows.Forms.Button();
+            this.clear = new System.Windows.Forms.Button();
+            this.remove = new System.Windows.Forms.Button();
+            this.dot = new System.Windows.Forms.Button();
+            this.plusMinus = new System.Windows.Forms.Button();
+            this.cleanEntry = new System.Windows.Forms.Button();
+            this.percent = new System.Windows.Forms.Button();
+            this.squareRoot = new System.Windows.Forms.Button();
+            this.square = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
-            this.b1 = new System.Windows.Forms.Button();
+            this.one = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // b2
+            // two
             // 
-            this.b2.Location = new System.Drawing.Point(69, 273);
-            this.b2.Name = "b2";
-            this.b2.Size = new System.Drawing.Size(51, 45);
-            this.b2.TabIndex = 1;
-            this.b2.TabStop = false;
-            this.b2.Text = "2";
-            this.b2.UseVisualStyleBackColor = true;
-            this.b2.Click += new System.EventHandler(this.b2_Click);
+            this.two.Location = new System.Drawing.Point(69, 273);
+            this.two.Name = "two";
+            this.two.Size = new System.Drawing.Size(51, 45);
+            this.two.TabIndex = 1;
+            this.two.TabStop = false;
+            this.two.Text = "2";
+            this.two.UseVisualStyleBackColor = true;
+            this.two.Click += new System.EventHandler(this.two_Click);
             // 
-            // b3
+            // three
             // 
-            this.b3.Location = new System.Drawing.Point(126, 273);
-            this.b3.Name = "b3";
-            this.b3.Size = new System.Drawing.Size(51, 45);
-            this.b3.TabIndex = 2;
-            this.b3.TabStop = false;
-            this.b3.Text = "3";
-            this.b3.UseVisualStyleBackColor = true;
-            this.b3.Click += new System.EventHandler(this.b2_Click);
+            this.three.Location = new System.Drawing.Point(126, 273);
+            this.three.Name = "three";
+            this.three.Size = new System.Drawing.Size(51, 45);
+            this.three.TabIndex = 2;
+            this.three.TabStop = false;
+            this.three.Text = "3";
+            this.three.UseVisualStyleBackColor = true;
+            this.three.Click += new System.EventHandler(this.two_Click);
             // 
-            // b4
+            // four
             // 
-            this.b4.Location = new System.Drawing.Point(12, 324);
-            this.b4.Name = "b4";
-            this.b4.Size = new System.Drawing.Size(51, 45);
-            this.b4.TabIndex = 3;
-            this.b4.TabStop = false;
-            this.b4.Text = "4";
-            this.b4.UseVisualStyleBackColor = true;
-            this.b4.Click += new System.EventHandler(this.b2_Click);
+            this.four.Location = new System.Drawing.Point(12, 324);
+            this.four.Name = "four";
+            this.four.Size = new System.Drawing.Size(51, 45);
+            this.four.TabIndex = 3;
+            this.four.TabStop = false;
+            this.four.Text = "4";
+            this.four.UseVisualStyleBackColor = true;
+            this.four.Click += new System.EventHandler(this.two_Click);
             // 
-            // b5
+            // five
             // 
-            this.b5.Location = new System.Drawing.Point(69, 324);
-            this.b5.Name = "b5";
-            this.b5.Size = new System.Drawing.Size(51, 45);
-            this.b5.TabIndex = 4;
-            this.b5.TabStop = false;
-            this.b5.Text = "5";
-            this.b5.UseVisualStyleBackColor = true;
-            this.b5.Click += new System.EventHandler(this.b2_Click);
+            this.five.Location = new System.Drawing.Point(69, 324);
+            this.five.Name = "five";
+            this.five.Size = new System.Drawing.Size(51, 45);
+            this.five.TabIndex = 4;
+            this.five.TabStop = false;
+            this.five.Text = "5";
+            this.five.UseVisualStyleBackColor = true;
+            this.five.Click += new System.EventHandler(this.two_Click);
             // 
-            // b6
+            // six
             // 
-            this.b6.Location = new System.Drawing.Point(126, 324);
-            this.b6.Name = "b6";
-            this.b6.Size = new System.Drawing.Size(51, 45);
-            this.b6.TabIndex = 5;
-            this.b6.TabStop = false;
-            this.b6.Text = "6";
-            this.b6.UseVisualStyleBackColor = true;
-            this.b6.Click += new System.EventHandler(this.b2_Click);
+            this.six.Location = new System.Drawing.Point(126, 324);
+            this.six.Name = "six";
+            this.six.Size = new System.Drawing.Size(51, 45);
+            this.six.TabIndex = 5;
+            this.six.TabStop = false;
+            this.six.Text = "6";
+            this.six.UseVisualStyleBackColor = true;
+            this.six.Click += new System.EventHandler(this.two_Click);
             // 
-            // b9
+            // nine
             // 
-            this.b9.Location = new System.Drawing.Point(126, 375);
-            this.b9.Name = "b9";
-            this.b9.Size = new System.Drawing.Size(51, 45);
-            this.b9.TabIndex = 8;
-            this.b9.TabStop = false;
-            this.b9.Text = "9";
-            this.b9.UseVisualStyleBackColor = true;
-            this.b9.Click += new System.EventHandler(this.b2_Click);
+            this.nine.Location = new System.Drawing.Point(126, 375);
+            this.nine.Name = "nine";
+            this.nine.Size = new System.Drawing.Size(51, 45);
+            this.nine.TabIndex = 8;
+            this.nine.TabStop = false;
+            this.nine.Text = "9";
+            this.nine.UseVisualStyleBackColor = true;
+            this.nine.Click += new System.EventHandler(this.two_Click);
             // 
-            // b8
+            // eight
             // 
-            this.b8.Location = new System.Drawing.Point(69, 375);
-            this.b8.Name = "b8";
-            this.b8.Size = new System.Drawing.Size(51, 45);
-            this.b8.TabIndex = 7;
-            this.b8.TabStop = false;
-            this.b8.Text = "8";
-            this.b8.UseVisualStyleBackColor = true;
-            this.b8.Click += new System.EventHandler(this.b2_Click);
+            this.eight.Location = new System.Drawing.Point(69, 375);
+            this.eight.Name = "eight";
+            this.eight.Size = new System.Drawing.Size(51, 45);
+            this.eight.TabIndex = 7;
+            this.eight.TabStop = false;
+            this.eight.Text = "8";
+            this.eight.UseVisualStyleBackColor = true;
+            this.eight.Click += new System.EventHandler(this.two_Click);
             // 
-            // b7
+            // seven
             // 
-            this.b7.Location = new System.Drawing.Point(12, 375);
-            this.b7.Name = "b7";
-            this.b7.Size = new System.Drawing.Size(51, 45);
-            this.b7.TabIndex = 6;
-            this.b7.TabStop = false;
-            this.b7.Text = "7";
-            this.b7.UseVisualStyleBackColor = true;
-            this.b7.Click += new System.EventHandler(this.b2_Click);
+            this.seven.Location = new System.Drawing.Point(12, 375);
+            this.seven.Name = "seven";
+            this.seven.Size = new System.Drawing.Size(51, 45);
+            this.seven.TabIndex = 6;
+            this.seven.TabStop = false;
+            this.seven.Text = "7";
+            this.seven.UseVisualStyleBackColor = true;
+            this.seven.Click += new System.EventHandler(this.two_Click);
             // 
-            // b0
+            // zero
             // 
-            this.b0.Location = new System.Drawing.Point(69, 426);
-            this.b0.Name = "b0";
-            this.b0.Size = new System.Drawing.Size(51, 45);
-            this.b0.TabIndex = 9;
-            this.b0.TabStop = false;
-            this.b0.Text = "0";
-            this.b0.UseVisualStyleBackColor = true;
-            this.b0.Click += new System.EventHandler(this.b2_Click);
+            this.zero.Location = new System.Drawing.Point(69, 426);
+            this.zero.Name = "zero";
+            this.zero.Size = new System.Drawing.Size(51, 45);
+            this.zero.TabIndex = 9;
+            this.zero.TabStop = false;
+            this.zero.Text = "0";
+            this.zero.UseVisualStyleBackColor = true;
+            this.zero.Click += new System.EventHandler(this.two_Click);
             // 
             // input
             // 
@@ -174,147 +174,148 @@
             this.output.TabIndex = 11;
             this.output.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // bShare
+            // share
             // 
-            this.bShare.Location = new System.Drawing.Point(183, 222);
-            this.bShare.Name = "bShare";
-            this.bShare.Size = new System.Drawing.Size(51, 45);
-            this.bShare.TabIndex = 15;
-            this.bShare.TabStop = false;
-            this.bShare.Text = "/";
-            this.bShare.UseVisualStyleBackColor = true;
-            this.bShare.Click += new System.EventHandler(this.bShare_Click);
+            this.share.Location = new System.Drawing.Point(183, 222);
+            this.share.Name = "share";
+            this.share.Size = new System.Drawing.Size(51, 45);
+            this.share.TabIndex = 15;
+            this.share.TabStop = false;
+            this.share.Text = "/";
+            this.share.UseVisualStyleBackColor = true;
+            this.share.Click += new System.EventHandler(this.share_Click);
             // 
-            // bMultiply
+            // multiply
             // 
-            this.bMultiply.Location = new System.Drawing.Point(183, 273);
-            this.bMultiply.Name = "bMultiply";
-            this.bMultiply.Size = new System.Drawing.Size(51, 45);
-            this.bMultiply.TabIndex = 14;
-            this.bMultiply.TabStop = false;
-            this.bMultiply.Text = "*";
-            this.bMultiply.UseVisualStyleBackColor = true;
-            this.bMultiply.Click += new System.EventHandler(this.bShare_Click);
+            this.multiply.Location = new System.Drawing.Point(183, 273);
+            this.multiply.Name = "multiply";
+            this.multiply.Size = new System.Drawing.Size(51, 45);
+            this.multiply.TabIndex = 14;
+            this.multiply.TabStop = false;
+            this.multiply.Text = "*";
+            this.multiply.UseVisualStyleBackColor = true;
+            this.multiply.Click += new System.EventHandler(this.share_Click);
             // 
-            // bMinus
+            // minus
             // 
-            this.bMinus.Location = new System.Drawing.Point(183, 324);
-            this.bMinus.Name = "bMinus";
-            this.bMinus.Size = new System.Drawing.Size(51, 45);
-            this.bMinus.TabIndex = 13;
-            this.bMinus.TabStop = false;
-            this.bMinus.Text = "-";
-            this.bMinus.UseVisualStyleBackColor = true;
-            this.bMinus.Click += new System.EventHandler(this.bShare_Click);
+            this.minus.Location = new System.Drawing.Point(183, 324);
+            this.minus.Name = "minus";
+            this.minus.Size = new System.Drawing.Size(51, 45);
+            this.minus.TabIndex = 13;
+            this.minus.TabStop = false;
+            this.minus.Text = "-";
+            this.minus.UseVisualStyleBackColor = true;
+            this.minus.Click += new System.EventHandler(this.share_Click);
             // 
-            // bPlus
+            // plus
             // 
-            this.bPlus.Location = new System.Drawing.Point(183, 375);
-            this.bPlus.Name = "bPlus";
-            this.bPlus.Size = new System.Drawing.Size(51, 45);
-            this.bPlus.TabIndex = 12;
-            this.bPlus.TabStop = false;
-            this.bPlus.Text = "+";
-            this.bPlus.UseVisualStyleBackColor = true;
-            this.bPlus.Click += new System.EventHandler(this.bShare_Click);
+            this.plus.Location = new System.Drawing.Point(183, 375);
+            this.plus.Name = "plus";
+            this.plus.Size = new System.Drawing.Size(51, 45);
+            this.plus.TabIndex = 12;
+            this.plus.TabStop = false;
+            this.plus.Text = "+";
+            this.plus.UseVisualStyleBackColor = true;
+            this.plus.Click += new System.EventHandler(this.share_Click);
             // 
-            // bEqually
+            // equally
             // 
-            this.bEqually.Location = new System.Drawing.Point(183, 426);
-            this.bEqually.Name = "bEqually";
-            this.bEqually.Size = new System.Drawing.Size(51, 45);
-            this.bEqually.TabIndex = 16;
-            this.bEqually.TabStop = false;
-            this.bEqually.Text = "=";
-            this.bEqually.UseVisualStyleBackColor = true;
-            this.bEqually.Click += new System.EventHandler(this.bEqually_Click);
+            this.equally.Location = new System.Drawing.Point(183, 426);
+            this.equally.Name = "equally";
+            this.equally.Size = new System.Drawing.Size(51, 45);
+            this.equally.TabIndex = 16;
+            this.equally.TabStop = false;
+            this.equally.Text = "=";
+            this.equally.UseVisualStyleBackColor = true;
+            this.equally.Click += new System.EventHandler(this.equally_Click);
             // 
-            // bClear
+            // clear
             // 
-            this.bClear.Location = new System.Drawing.Point(69, 222);
-            this.bClear.Name = "bClear";
-            this.bClear.Size = new System.Drawing.Size(51, 45);
-            this.bClear.TabIndex = 18;
-            this.bClear.TabStop = false;
-            this.bClear.Text = "C";
-            this.bClear.UseVisualStyleBackColor = true;
-            this.bClear.Click += new System.EventHandler(this.bClear_Click);
+            this.clear.Location = new System.Drawing.Point(69, 222);
+            this.clear.Name = "clear";
+            this.clear.Size = new System.Drawing.Size(51, 45);
+            this.clear.TabIndex = 18;
+            this.clear.TabStop = false;
+            this.clear.Text = "C";
+            this.clear.UseVisualStyleBackColor = true;
+            this.clear.Click += new System.EventHandler(this.clear_Click);
             // 
-            // bRemove
+            // remove
             // 
-            this.bRemove.Location = new System.Drawing.Point(126, 222);
-            this.bRemove.Name = "bRemove";
-            this.bRemove.Size = new System.Drawing.Size(51, 45);
-            this.bRemove.TabIndex = 17;
-            this.bRemove.TabStop = false;
-            this.bRemove.Text = "<-";
-            this.bRemove.UseVisualStyleBackColor = true;
-            this.bRemove.Click += new System.EventHandler(this.bRemove_Click);
+            this.remove.Location = new System.Drawing.Point(126, 222);
+            this.remove.Name = "remove";
+            this.remove.Size = new System.Drawing.Size(51, 45);
+            this.remove.TabIndex = 17;
+            this.remove.TabStop = false;
+            this.remove.Text = "<-";
+            this.remove.UseVisualStyleBackColor = true;
+            this.remove.Click += new System.EventHandler(this.remove_Click);
             // 
-            // bDot
+            // dot
             // 
-            this.bDot.Location = new System.Drawing.Point(126, 426);
-            this.bDot.Name = "bDot";
-            this.bDot.Size = new System.Drawing.Size(51, 45);
-            this.bDot.TabIndex = 19;
-            this.bDot.TabStop = false;
-            this.bDot.Text = ",";
-            this.bDot.UseVisualStyleBackColor = true;
-            this.bDot.Click += new System.EventHandler(this.bDot_Click);
+            this.dot.Location = new System.Drawing.Point(126, 426);
+            this.dot.Name = "dot";
+            this.dot.Size = new System.Drawing.Size(51, 45);
+            this.dot.TabIndex = 19;
+            this.dot.TabStop = false;
+            this.dot.Text = ",";
+            this.dot.UseVisualStyleBackColor = true;
+            this.dot.Click += new System.EventHandler(this.dot_Click);
             // 
-            // button2
+            // plusMinus
             // 
-            this.button2.Location = new System.Drawing.Point(9, 426);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(51, 45);
-            this.button2.TabIndex = 20;
-            this.button2.TabStop = false;
-            this.button2.Text = "±";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.plusMinus.Location = new System.Drawing.Point(9, 426);
+            this.plusMinus.Name = "plusMinus";
+            this.plusMinus.Size = new System.Drawing.Size(51, 45);
+            this.plusMinus.TabIndex = 20;
+            this.plusMinus.TabStop = false;
+            this.plusMinus.Text = "±";
+            this.plusMinus.UseVisualStyleBackColor = true;
+            this.plusMinus.Click += new System.EventHandler(this.plusMinus_Click);
             // 
-            // button3
+            // cleanEntry
             // 
-            this.button3.Location = new System.Drawing.Point(12, 222);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(51, 45);
-            this.button3.TabIndex = 21;
-            this.button3.TabStop = false;
-            this.button3.Text = "CE";
-            this.button3.UseVisualStyleBackColor = true;
+            this.cleanEntry.Location = new System.Drawing.Point(12, 222);
+            this.cleanEntry.Name = "cleanEntry";
+            this.cleanEntry.Size = new System.Drawing.Size(51, 45);
+            this.cleanEntry.TabIndex = 21;
+            this.cleanEntry.TabStop = false;
+            this.cleanEntry.Text = "CE";
+            this.cleanEntry.UseVisualStyleBackColor = true;
+            this.cleanEntry.Click += new System.EventHandler(this.cleanEntry_Click);
             // 
-            // bPercent
+            // percent
             // 
-            this.bPercent.Location = new System.Drawing.Point(12, 171);
-            this.bPercent.Name = "bPercent";
-            this.bPercent.Size = new System.Drawing.Size(51, 45);
-            this.bPercent.TabIndex = 25;
-            this.bPercent.TabStop = false;
-            this.bPercent.Text = "%";
-            this.bPercent.UseVisualStyleBackColor = true;
-            this.bPercent.Click += new System.EventHandler(this.bShare_Click);
+            this.percent.Location = new System.Drawing.Point(12, 171);
+            this.percent.Name = "percent";
+            this.percent.Size = new System.Drawing.Size(51, 45);
+            this.percent.TabIndex = 25;
+            this.percent.TabStop = false;
+            this.percent.Text = "%";
+            this.percent.UseVisualStyleBackColor = true;
+            this.percent.Click += new System.EventHandler(this.share_Click);
             // 
-            // bSquareRoot
+            // squareRoot
             // 
-            this.bSquareRoot.Location = new System.Drawing.Point(69, 171);
-            this.bSquareRoot.Name = "bSquareRoot";
-            this.bSquareRoot.Size = new System.Drawing.Size(51, 45);
-            this.bSquareRoot.TabIndex = 24;
-            this.bSquareRoot.TabStop = false;
-            this.bSquareRoot.Text = "√";
-            this.bSquareRoot.UseVisualStyleBackColor = true;
-            this.bSquareRoot.Click += new System.EventHandler(this.bSquareRoot_Click);
+            this.squareRoot.Location = new System.Drawing.Point(69, 171);
+            this.squareRoot.Name = "squareRoot";
+            this.squareRoot.Size = new System.Drawing.Size(51, 45);
+            this.squareRoot.TabIndex = 24;
+            this.squareRoot.TabStop = false;
+            this.squareRoot.Text = "√";
+            this.squareRoot.UseVisualStyleBackColor = true;
+            this.squareRoot.Click += new System.EventHandler(this.squareRoot_Click);
             // 
-            // bSquare
+            // square
             // 
-            this.bSquare.Location = new System.Drawing.Point(126, 171);
-            this.bSquare.Name = "bSquare";
-            this.bSquare.Size = new System.Drawing.Size(51, 45);
-            this.bSquare.TabIndex = 23;
-            this.bSquare.TabStop = false;
-            this.bSquare.Text = "x² ";
-            this.bSquare.UseVisualStyleBackColor = true;
-            this.bSquare.Click += new System.EventHandler(this.bSquare_Click);
+            this.square.Location = new System.Drawing.Point(126, 171);
+            this.square.Name = "square";
+            this.square.Size = new System.Drawing.Size(51, 45);
+            this.square.TabIndex = 23;
+            this.square.TabStop = false;
+            this.square.Text = "x² ";
+            this.square.UseVisualStyleBackColor = true;
+            this.square.Click += new System.EventHandler(this.square_Click);
             // 
             // button7
             // 
@@ -327,16 +328,16 @@
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
-            // b1
+            // one
             // 
-            this.b1.Location = new System.Drawing.Point(12, 273);
-            this.b1.Name = "b1";
-            this.b1.Size = new System.Drawing.Size(51, 45);
-            this.b1.TabIndex = 0;
-            this.b1.TabStop = false;
-            this.b1.Text = "1";
-            this.b1.UseVisualStyleBackColor = true;
-            this.b1.Click += new System.EventHandler(this.b2_Click);
+            this.one.Location = new System.Drawing.Point(12, 273);
+            this.one.Name = "one";
+            this.one.Size = new System.Drawing.Size(51, 45);
+            this.one.TabIndex = 0;
+            this.one.TabStop = false;
+            this.one.Text = "1";
+            this.one.UseVisualStyleBackColor = true;
+            this.one.Click += new System.EventHandler(this.two_Click);
             // 
             // Form1
             // 
@@ -344,32 +345,32 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(250, 477);
-            this.Controls.Add(this.bPercent);
-            this.Controls.Add(this.bSquareRoot);
-            this.Controls.Add(this.bSquare);
+            this.Controls.Add(this.percent);
+            this.Controls.Add(this.squareRoot);
+            this.Controls.Add(this.square);
             this.Controls.Add(this.button7);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.bDot);
-            this.Controls.Add(this.bClear);
-            this.Controls.Add(this.bRemove);
-            this.Controls.Add(this.bEqually);
-            this.Controls.Add(this.bShare);
-            this.Controls.Add(this.bMultiply);
-            this.Controls.Add(this.bMinus);
-            this.Controls.Add(this.bPlus);
+            this.Controls.Add(this.cleanEntry);
+            this.Controls.Add(this.plusMinus);
+            this.Controls.Add(this.dot);
+            this.Controls.Add(this.clear);
+            this.Controls.Add(this.remove);
+            this.Controls.Add(this.equally);
+            this.Controls.Add(this.share);
+            this.Controls.Add(this.multiply);
+            this.Controls.Add(this.minus);
+            this.Controls.Add(this.plus);
             this.Controls.Add(this.output);
             this.Controls.Add(this.input);
-            this.Controls.Add(this.b0);
-            this.Controls.Add(this.b9);
-            this.Controls.Add(this.b8);
-            this.Controls.Add(this.b7);
-            this.Controls.Add(this.b6);
-            this.Controls.Add(this.b5);
-            this.Controls.Add(this.b4);
-            this.Controls.Add(this.b3);
-            this.Controls.Add(this.b2);
-            this.Controls.Add(this.b1);
+            this.Controls.Add(this.zero);
+            this.Controls.Add(this.nine);
+            this.Controls.Add(this.eight);
+            this.Controls.Add(this.seven);
+            this.Controls.Add(this.six);
+            this.Controls.Add(this.five);
+            this.Controls.Add(this.four);
+            this.Controls.Add(this.three);
+            this.Controls.Add(this.two);
+            this.Controls.Add(this.one);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.Name = "Form1";
@@ -380,32 +381,32 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button b2;
-        private System.Windows.Forms.Button b3;
-        private System.Windows.Forms.Button b4;
-        private System.Windows.Forms.Button b5;
-        private System.Windows.Forms.Button b6;
-        private System.Windows.Forms.Button b9;
-        private System.Windows.Forms.Button b8;
-        private System.Windows.Forms.Button b7;
-        private System.Windows.Forms.Button b0;
+        private System.Windows.Forms.Button two;
+        private System.Windows.Forms.Button three;
+        private System.Windows.Forms.Button four;
+        private System.Windows.Forms.Button five;
+        private System.Windows.Forms.Button six;
+        private System.Windows.Forms.Button nine;
+        private System.Windows.Forms.Button eight;
+        private System.Windows.Forms.Button seven;
+        private System.Windows.Forms.Button zero;
         private System.Windows.Forms.Label input;
         private System.Windows.Forms.Label output;
-        private System.Windows.Forms.Button bShare;
-        private System.Windows.Forms.Button bMultiply;
-        private System.Windows.Forms.Button bMinus;
-        private System.Windows.Forms.Button bPlus;
-        private System.Windows.Forms.Button bEqually;
-        private System.Windows.Forms.Button bClear;
-        private System.Windows.Forms.Button bRemove;
-        private System.Windows.Forms.Button bDot;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button bPercent;
-        private System.Windows.Forms.Button bSquareRoot;
-        private System.Windows.Forms.Button bSquare;
+        private System.Windows.Forms.Button share;
+        private System.Windows.Forms.Button multiply;
+        private System.Windows.Forms.Button minus;
+        private System.Windows.Forms.Button plus;
+        private System.Windows.Forms.Button equally;
+        private System.Windows.Forms.Button clear;
+        private System.Windows.Forms.Button remove;
+        private System.Windows.Forms.Button dot;
+        private System.Windows.Forms.Button plusMinus;
+        private System.Windows.Forms.Button cleanEntry;
+        private System.Windows.Forms.Button percent;
+        private System.Windows.Forms.Button squareRoot;
+        private System.Windows.Forms.Button square;
         private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button b1;
+        private System.Windows.Forms.Button one;
     }
 }
 
