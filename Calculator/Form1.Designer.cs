@@ -262,14 +262,14 @@
             this.minus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(57)))), ((int)(((byte)(62)))));
             this.minus.FlatAppearance.BorderSize = 0;
             this.minus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.minus.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.minus.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.minus.ForeColor = System.Drawing.Color.White;
             this.minus.Location = new System.Drawing.Point(183, 278);
             this.minus.Name = "minus";
             this.minus.Size = new System.Drawing.Size(59, 50);
             this.minus.TabIndex = 13;
             this.minus.TabStop = false;
-            this.minus.Text = "-";
+            this.minus.Text = "−";
             this.minus.UseVisualStyleBackColor = false;
             this.minus.Click += new System.EventHandler(this.share_Click);
             // 
@@ -310,7 +310,7 @@
             this.clear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(57)))), ((int)(((byte)(62)))));
             this.clear.FlatAppearance.BorderSize = 0;
             this.clear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.clear.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.clear.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.clear.ForeColor = System.Drawing.Color.White;
             this.clear.Location = new System.Drawing.Point(69, 176);
             this.clear.Name = "clear";
@@ -374,7 +374,7 @@
             this.cleanEntry.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(57)))), ((int)(((byte)(62)))));
             this.cleanEntry.FlatAppearance.BorderSize = 0;
             this.cleanEntry.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cleanEntry.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.cleanEntry.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.cleanEntry.ForeColor = System.Drawing.Color.White;
             this.cleanEntry.Location = new System.Drawing.Point(12, 176);
             this.cleanEntry.Name = "cleanEntry";
@@ -413,7 +413,7 @@
             this.squareRoot.Size = new System.Drawing.Size(59, 50);
             this.squareRoot.TabIndex = 24;
             this.squareRoot.TabStop = false;
-            this.squareRoot.Text = "√";
+            this.squareRoot.Text = " √";
             this.squareRoot.UseVisualStyleBackColor = false;
             this.squareRoot.Click += new System.EventHandler(this.squareRoot_Click);
             // 
@@ -429,7 +429,7 @@
             this.square.Size = new System.Drawing.Size(59, 50);
             this.square.TabIndex = 23;
             this.square.TabStop = false;
-            this.square.Text = "x² ";
+            this.square.Text = "  x² ";
             this.square.UseVisualStyleBackColor = false;
             this.square.Click += new System.EventHandler(this.square_Click);
             // 
