@@ -470,7 +470,7 @@
             this.bg.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(49)))), ((int)(((byte)(54)))));
             this.bg.Location = new System.Drawing.Point(-7, -5);
             this.bg.Name = "bg";
-            this.bg.Size = new System.Drawing.Size(261, 127);
+            this.bg.Size = new System.Drawing.Size(261, 120);
             this.bg.TabIndex = 26;
             // 
             // Form1
