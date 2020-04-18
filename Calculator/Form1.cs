@@ -107,7 +107,7 @@ namespace Calculator
                 result = firstNumber * secondNumber / 100;
             }
 
-            ChangeAct();
+            isSecondNumber = true;
             answer = result;
         }
 
@@ -123,7 +123,7 @@ namespace Calculator
             double result, number;
             number = Convert.ToDouble(input.Text);
             result = Math.Sqrt(number);
-            ChangeAct();
+            isSecondNumber = true;
             input.Text = result.ToString();
         }
 
@@ -132,7 +132,7 @@ namespace Calculator
             double result, number;
             number = Convert.ToDouble(input.Text);
             result = Math.Pow(number, 2);
-            ChangeAct();
+            isSecondNumber = true;
             input.Text = result.ToString();
         }
 
@@ -141,14 +141,8 @@ namespace Calculator
             double result, number;
             number = Convert.ToDouble(input.Text);
             result = 1 / number;
-            ChangeAct();
-            input.Text = result.ToString();
-        }
-
-        private void ChangeAct()
-        {
-            act = "=";
             isSecondNumber = true;
+            input.Text = result.ToString();
         }
 
         private void plusMinus_Click(object sender, EventArgs e)
@@ -156,7 +150,7 @@ namespace Calculator
             double result, number;
             number = Convert.ToDouble(input.Text);
             result = -number;
-            ChangeAct();
+            isSecondNumber = true;
             input.Text = result.ToString();
         }
 
