@@ -13,22 +13,33 @@ namespace Calculator
     public partial class Form1 : Form
     {
         private string act;
-        private string number;
         private bool isSecondNumber = false;
+        private bool isAct = false;
+        private double answer = 0;
         public Form1()
         {
             InitializeComponent();
         }
 
+        private void resetData()
+        {
+            output.Text = "";
+            isSecondNumber = true;
+            isAct = false;
+            answer = 0;
+        }
+
         private void clear_Click(object sender, EventArgs e)
         {
             input.Text = "0";
+            resetData();
         }
 
         private void remove_Click(object sender, EventArgs e)
         {
             input.Text = input.Text.Remove(input.Text.Length - 1, 1);
-            if (input.Text == "") {
+            if (input.Text == "")
+            {
                 input.Text = "0";
             }
         }
@@ -53,16 +64,26 @@ namespace Calculator
 
         private void share_Click(object sender, EventArgs e)
         {
+            string number = input.Text;
+            if (isAct)
+            {
+                getAnswer();
+            }
+            else
+            {
+                answer = Convert.ToDouble(number);
+            }
             Button B = (Button)sender;
             act = B.Text;
-            number = input.Text;
+            output.Text += number + " " + act + " ";
             isSecondNumber = true;
+            isAct = true;
         }
 
-        private void equally_Click(object sender, EventArgs e)
+        private void getAnswer()
         {
             double firstNumber, secondNumber, result = 0;
-            firstNumber = Convert.ToDouble(number);
+            firstNumber = Convert.ToDouble(answer);
             secondNumber = Convert.ToDouble(input.Text);
 
             if (act == "+")
@@ -87,7 +108,14 @@ namespace Calculator
             }
 
             ChangeAct();
-            input.Text = result.ToString();
+            answer = result;
+        }
+
+        private void equally_Click(object sender, EventArgs e)
+        {
+            getAnswer();
+            input.Text = answer.ToString();
+            resetData();
         }
 
         private void squareRoot_Click(object sender, EventArgs e)

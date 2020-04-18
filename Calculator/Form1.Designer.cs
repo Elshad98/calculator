@@ -167,7 +167,8 @@
             // 
             // output
             // 
-            this.output.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.output.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.output.ForeColor = System.Drawing.SystemColors.ButtonShadow;
             this.output.Location = new System.Drawing.Point(-1, 43);
             this.output.Name = "output";
             this.output.Size = new System.Drawing.Size(246, 37);
