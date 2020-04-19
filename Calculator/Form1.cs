@@ -166,5 +166,25 @@ namespace Calculator
         {
             input.Text = "0";
         }
+
+        private void close_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void close_MouseEnter(object sender, EventArgs e)
+        {
+            close.BackColor = Color.FromArgb(240, 71, 71);
+        }
+
+        private void collapse_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void close_MouseLeave(object sender, EventArgs e)
+        {
+            close.BackColor = Color.FromArgb(54, 56, 62);
+        }
     }
 }
