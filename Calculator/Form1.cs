@@ -29,12 +29,6 @@ namespace Calculator
             answer = 0;
         }
 
-        private void clear_Click(object sender, EventArgs e)
-        {
-            input.Text = "0";
-            resetData();
-        }
-
         private void remove_Click(object sender, EventArgs e)
         {
             input.Text = input.Text.Remove(input.Text.Length - 1, 1);
@@ -94,11 +88,11 @@ namespace Calculator
             {
                 result = firstNumber * secondNumber;
             }
-            else if (act == "-")
+            else if (act == "−")
             {
                 result = firstNumber - secondNumber;
             }
-            else if (act == "/")
+            else if (act == "÷")
             {
                 result = firstNumber / secondNumber;
             }
@@ -192,6 +186,12 @@ namespace Calculator
             panel1.Capture = false;
             Message m = Message.Create(Handle, 0xa1, new IntPtr(2), IntPtr.Zero);
             WndProc(ref m);
+        }
+
+        private void clear_Click(object sender, EventArgs e)
+        {
+            input.Text = "0";
+            resetData();
         }
     }
 }

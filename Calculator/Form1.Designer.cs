@@ -325,6 +325,7 @@
             this.clear.TabStop = false;
             this.clear.Text = "C";
             this.clear.UseVisualStyleBackColor = false;
+            this.clear.Click += new System.EventHandler(this.clear_Click);
             // 
             // remove
             // 
