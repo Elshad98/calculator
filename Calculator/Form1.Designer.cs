@@ -71,7 +71,7 @@
             this.two.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.two.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.two.ForeColor = System.Drawing.Color.White;
-            this.two.Location = new System.Drawing.Point(74, 235);
+            this.two.Location = new System.Drawing.Point(74, 347);
             this.two.Name = "two";
             this.two.Size = new System.Drawing.Size(60, 50);
             this.two.TabIndex = 1;
@@ -87,7 +87,7 @@
             this.three.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.three.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.three.ForeColor = System.Drawing.Color.White;
-            this.three.Location = new System.Drawing.Point(140, 235);
+            this.three.Location = new System.Drawing.Point(140, 347);
             this.three.Name = "three";
             this.three.Size = new System.Drawing.Size(60, 50);
             this.three.TabIndex = 2;
@@ -151,7 +151,7 @@
             this.nine.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.nine.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.nine.ForeColor = System.Drawing.Color.White;
-            this.nine.Location = new System.Drawing.Point(140, 347);
+            this.nine.Location = new System.Drawing.Point(140, 235);
             this.nine.Name = "nine";
             this.nine.Size = new System.Drawing.Size(60, 50);
             this.nine.TabIndex = 8;
@@ -167,7 +167,7 @@
             this.eight.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.eight.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.eight.ForeColor = System.Drawing.Color.White;
-            this.eight.Location = new System.Drawing.Point(74, 347);
+            this.eight.Location = new System.Drawing.Point(74, 235);
             this.eight.Name = "eight";
             this.eight.Size = new System.Drawing.Size(60, 50);
             this.eight.TabIndex = 7;
@@ -183,7 +183,7 @@
             this.seven.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.seven.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.seven.ForeColor = System.Drawing.Color.White;
-            this.seven.Location = new System.Drawing.Point(8, 347);
+            this.seven.Location = new System.Drawing.Point(8, 235);
             this.seven.Name = "seven";
             this.seven.Size = new System.Drawing.Size(60, 50);
             this.seven.TabIndex = 6;
@@ -462,7 +462,7 @@
             this.one.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.one.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.one.ForeColor = System.Drawing.Color.White;
-            this.one.Location = new System.Drawing.Point(8, 235);
+            this.one.Location = new System.Drawing.Point(8, 347);
             this.one.Name = "one";
             this.one.Size = new System.Drawing.Size(60, 50);
             this.one.TabIndex = 0;

@@ -84,7 +84,7 @@ namespace Calculator
             {
                 result = firstNumber + secondNumber;
             }
-            else if (act == "*")
+            else if (act == "x")
             {
                 result = firstNumber * secondNumber;
             }
