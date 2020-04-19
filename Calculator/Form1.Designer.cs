@@ -57,10 +57,10 @@
             this.one = new System.Windows.Forms.Button();
             this.bg = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.crop = new System.Windows.Forms.Button();
+            this.collapse = new System.Windows.Forms.Button();
             this.close = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.collapse = new System.Windows.Forms.Button();
-            this.crop = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -484,11 +484,39 @@
             this.panel1.Controls.Add(this.collapse);
             this.panel1.Controls.Add(this.close);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(250, 25);
             this.panel1.TabIndex = 27;
+            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
+            // 
+            // crop
+            // 
+            this.crop.Enabled = false;
+            this.crop.FlatAppearance.BorderSize = 0;
+            this.crop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.crop.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.crop.Image = ((System.Drawing.Image)(resources.GetObject("crop.Image")));
+            this.crop.Location = new System.Drawing.Point(202, 3);
+            this.crop.Name = "crop";
+            this.crop.Size = new System.Drawing.Size(20, 20);
+            this.crop.TabIndex = 3;
+            this.crop.TabStop = false;
+            this.crop.UseVisualStyleBackColor = false;
+            // 
+            // collapse
+            // 
+            this.collapse.FlatAppearance.BorderSize = 0;
+            this.collapse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.collapse.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.collapse.Image = ((System.Drawing.Image)(resources.GetObject("collapse.Image")));
+            this.collapse.Location = new System.Drawing.Point(178, 3);
+            this.collapse.Name = "collapse";
+            this.collapse.Size = new System.Drawing.Size(20, 20);
+            this.collapse.TabIndex = 2;
+            this.collapse.TabStop = false;
+            this.collapse.UseVisualStyleBackColor = false;
+            this.collapse.Click += new System.EventHandler(this.collapse_Click);
             // 
             // close
             // 
@@ -516,34 +544,6 @@
             this.label1.Size = new System.Drawing.Size(76, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Calculator";
-            // 
-            // collapse
-            // 
-            this.collapse.FlatAppearance.BorderSize = 0;
-            this.collapse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.collapse.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.collapse.Image = ((System.Drawing.Image)(resources.GetObject("collapse.Image")));
-            this.collapse.Location = new System.Drawing.Point(178, 3);
-            this.collapse.Name = "collapse";
-            this.collapse.Size = new System.Drawing.Size(20, 20);
-            this.collapse.TabIndex = 2;
-            this.collapse.TabStop = false;
-            this.collapse.UseVisualStyleBackColor = false;
-            this.collapse.Click += new System.EventHandler(this.collapse_Click);
-            // 
-            // crop
-            // 
-            this.crop.Enabled = false;
-            this.crop.FlatAppearance.BorderSize = 0;
-            this.crop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.crop.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.crop.Image = ((System.Drawing.Image)(resources.GetObject("crop.Image")));
-            this.crop.Location = new System.Drawing.Point(202, 3);
-            this.crop.Name = "crop";
-            this.crop.Size = new System.Drawing.Size(20, 20);
-            this.crop.TabIndex = 3;
-            this.crop.TabStop = false;
-            this.crop.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 

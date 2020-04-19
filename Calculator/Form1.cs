@@ -186,5 +186,12 @@ namespace Calculator
         {
             close.BackColor = Color.FromArgb(54, 56, 62);
         }
+
+        private void panel1_MouseDown(object sender, MouseEventArgs e)
+        {
+            panel1.Capture = false;
+            Message m = Message.Create(Handle, 0xa1, new IntPtr(2), IntPtr.Zero);
+            WndProc(ref m);
+        }
     }
 }
