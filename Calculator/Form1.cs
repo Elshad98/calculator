@@ -107,7 +107,10 @@ namespace Calculator
 
         private void equally_Click(object sender, EventArgs e)
         {
-            getAnswer();
+            if (isAct)
+            {
+                getAnswer();
+            }
             input.Text = answer.ToString();
             resetData();
         }

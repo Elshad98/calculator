@@ -215,7 +215,7 @@
             this.input.ForeColor = System.Drawing.Color.White;
             this.input.Location = new System.Drawing.Point(-1, 76);
             this.input.Name = "input";
-            this.input.Size = new System.Drawing.Size(246, 37);
+            this.input.Size = new System.Drawing.Size(271, 37);
             this.input.TabIndex = 10;
             this.input.Text = "0";
             this.input.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -227,7 +227,7 @@
             this.output.ForeColor = System.Drawing.SystemColors.ButtonShadow;
             this.output.Location = new System.Drawing.Point(-1, 34);
             this.output.Name = "output";
-            this.output.Size = new System.Drawing.Size(246, 30);
+            this.output.Size = new System.Drawing.Size(267, 30);
             this.output.TabIndex = 11;
             this.output.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
