@@ -71,9 +71,9 @@
             this.two.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.two.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.two.ForeColor = System.Drawing.Color.White;
-            this.two.Location = new System.Drawing.Point(69, 239);
+            this.two.Location = new System.Drawing.Point(74, 235);
             this.two.Name = "two";
-            this.two.Size = new System.Drawing.Size(59, 50);
+            this.two.Size = new System.Drawing.Size(60, 50);
             this.two.TabIndex = 1;
             this.two.TabStop = false;
             this.two.Text = "2";
@@ -87,9 +87,9 @@
             this.three.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.three.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.three.ForeColor = System.Drawing.Color.White;
-            this.three.Location = new System.Drawing.Point(126, 239);
+            this.three.Location = new System.Drawing.Point(140, 235);
             this.three.Name = "three";
-            this.three.Size = new System.Drawing.Size(59, 50);
+            this.three.Size = new System.Drawing.Size(60, 50);
             this.three.TabIndex = 2;
             this.three.TabStop = false;
             this.three.Text = "3";
@@ -103,9 +103,9 @@
             this.four.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.four.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.four.ForeColor = System.Drawing.Color.White;
-            this.four.Location = new System.Drawing.Point(12, 290);
+            this.four.Location = new System.Drawing.Point(8, 291);
             this.four.Name = "four";
-            this.four.Size = new System.Drawing.Size(59, 50);
+            this.four.Size = new System.Drawing.Size(60, 50);
             this.four.TabIndex = 3;
             this.four.TabStop = false;
             this.four.Text = "4";
@@ -119,9 +119,9 @@
             this.five.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.five.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.five.ForeColor = System.Drawing.Color.White;
-            this.five.Location = new System.Drawing.Point(69, 290);
+            this.five.Location = new System.Drawing.Point(74, 291);
             this.five.Name = "five";
-            this.five.Size = new System.Drawing.Size(59, 50);
+            this.five.Size = new System.Drawing.Size(60, 50);
             this.five.TabIndex = 4;
             this.five.TabStop = false;
             this.five.Text = "5";
@@ -135,9 +135,9 @@
             this.six.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.six.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.six.ForeColor = System.Drawing.Color.White;
-            this.six.Location = new System.Drawing.Point(126, 290);
+            this.six.Location = new System.Drawing.Point(140, 291);
             this.six.Name = "six";
-            this.six.Size = new System.Drawing.Size(59, 50);
+            this.six.Size = new System.Drawing.Size(60, 50);
             this.six.TabIndex = 5;
             this.six.TabStop = false;
             this.six.Text = "6";
@@ -151,9 +151,9 @@
             this.nine.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.nine.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.nine.ForeColor = System.Drawing.Color.White;
-            this.nine.Location = new System.Drawing.Point(126, 341);
+            this.nine.Location = new System.Drawing.Point(140, 347);
             this.nine.Name = "nine";
-            this.nine.Size = new System.Drawing.Size(59, 50);
+            this.nine.Size = new System.Drawing.Size(60, 50);
             this.nine.TabIndex = 8;
             this.nine.TabStop = false;
             this.nine.Text = "9";
@@ -167,9 +167,9 @@
             this.eight.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.eight.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.eight.ForeColor = System.Drawing.Color.White;
-            this.eight.Location = new System.Drawing.Point(69, 341);
+            this.eight.Location = new System.Drawing.Point(74, 347);
             this.eight.Name = "eight";
-            this.eight.Size = new System.Drawing.Size(59, 50);
+            this.eight.Size = new System.Drawing.Size(60, 50);
             this.eight.TabIndex = 7;
             this.eight.TabStop = false;
             this.eight.Text = "8";
@@ -183,9 +183,9 @@
             this.seven.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.seven.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.seven.ForeColor = System.Drawing.Color.White;
-            this.seven.Location = new System.Drawing.Point(12, 341);
+            this.seven.Location = new System.Drawing.Point(8, 347);
             this.seven.Name = "seven";
-            this.seven.Size = new System.Drawing.Size(59, 50);
+            this.seven.Size = new System.Drawing.Size(60, 50);
             this.seven.TabIndex = 6;
             this.seven.TabStop = false;
             this.seven.Text = "7";
@@ -199,9 +199,9 @@
             this.zero.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.zero.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.zero.ForeColor = System.Drawing.Color.White;
-            this.zero.Location = new System.Drawing.Point(69, 392);
+            this.zero.Location = new System.Drawing.Point(74, 403);
             this.zero.Name = "zero";
-            this.zero.Size = new System.Drawing.Size(59, 50);
+            this.zero.Size = new System.Drawing.Size(60, 50);
             this.zero.TabIndex = 9;
             this.zero.TabStop = false;
             this.zero.Text = "0";
@@ -238,9 +238,9 @@
             this.share.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.share.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.share.ForeColor = System.Drawing.Color.White;
-            this.share.Location = new System.Drawing.Point(183, 188);
+            this.share.Location = new System.Drawing.Point(206, 179);
             this.share.Name = "share";
-            this.share.Size = new System.Drawing.Size(59, 50);
+            this.share.Size = new System.Drawing.Size(60, 50);
             this.share.TabIndex = 15;
             this.share.TabStop = false;
             this.share.Text = "÷";
@@ -254,9 +254,9 @@
             this.multiply.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.multiply.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.multiply.ForeColor = System.Drawing.Color.White;
-            this.multiply.Location = new System.Drawing.Point(183, 239);
+            this.multiply.Location = new System.Drawing.Point(206, 235);
             this.multiply.Name = "multiply";
-            this.multiply.Size = new System.Drawing.Size(59, 50);
+            this.multiply.Size = new System.Drawing.Size(60, 50);
             this.multiply.TabIndex = 14;
             this.multiply.TabStop = false;
             this.multiply.Text = "x";
@@ -270,9 +270,9 @@
             this.minus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.minus.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.minus.ForeColor = System.Drawing.Color.White;
-            this.minus.Location = new System.Drawing.Point(183, 290);
+            this.minus.Location = new System.Drawing.Point(206, 291);
             this.minus.Name = "minus";
-            this.minus.Size = new System.Drawing.Size(59, 50);
+            this.minus.Size = new System.Drawing.Size(60, 50);
             this.minus.TabIndex = 13;
             this.minus.TabStop = false;
             this.minus.Text = "−";
@@ -286,9 +286,9 @@
             this.plus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.plus.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.plus.ForeColor = System.Drawing.Color.White;
-            this.plus.Location = new System.Drawing.Point(183, 341);
+            this.plus.Location = new System.Drawing.Point(206, 347);
             this.plus.Name = "plus";
-            this.plus.Size = new System.Drawing.Size(59, 50);
+            this.plus.Size = new System.Drawing.Size(60, 50);
             this.plus.TabIndex = 12;
             this.plus.TabStop = false;
             this.plus.Text = "+";
@@ -302,9 +302,9 @@
             this.equally.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.equally.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.equally.ForeColor = System.Drawing.Color.White;
-            this.equally.Location = new System.Drawing.Point(183, 392);
+            this.equally.Location = new System.Drawing.Point(206, 403);
             this.equally.Name = "equally";
-            this.equally.Size = new System.Drawing.Size(59, 50);
+            this.equally.Size = new System.Drawing.Size(60, 50);
             this.equally.TabIndex = 16;
             this.equally.TabStop = false;
             this.equally.Text = "=";
@@ -318,9 +318,9 @@
             this.clear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.clear.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.clear.ForeColor = System.Drawing.Color.White;
-            this.clear.Location = new System.Drawing.Point(69, 188);
+            this.clear.Location = new System.Drawing.Point(74, 179);
             this.clear.Name = "clear";
-            this.clear.Size = new System.Drawing.Size(59, 50);
+            this.clear.Size = new System.Drawing.Size(60, 50);
             this.clear.TabIndex = 18;
             this.clear.TabStop = false;
             this.clear.Text = "C";
@@ -335,9 +335,9 @@
             this.remove.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.remove.ForeColor = System.Drawing.Color.White;
             this.remove.Image = ((System.Drawing.Image)(resources.GetObject("remove.Image")));
-            this.remove.Location = new System.Drawing.Point(126, 188);
+            this.remove.Location = new System.Drawing.Point(140, 179);
             this.remove.Name = "remove";
-            this.remove.Size = new System.Drawing.Size(59, 50);
+            this.remove.Size = new System.Drawing.Size(60, 50);
             this.remove.TabIndex = 17;
             this.remove.TabStop = false;
             this.remove.UseVisualStyleBackColor = false;
@@ -350,9 +350,9 @@
             this.dot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dot.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.dot.ForeColor = System.Drawing.Color.White;
-            this.dot.Location = new System.Drawing.Point(126, 392);
+            this.dot.Location = new System.Drawing.Point(140, 403);
             this.dot.Name = "dot";
-            this.dot.Size = new System.Drawing.Size(59, 50);
+            this.dot.Size = new System.Drawing.Size(60, 50);
             this.dot.TabIndex = 19;
             this.dot.TabStop = false;
             this.dot.Text = ",";
@@ -366,9 +366,9 @@
             this.plusMinus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.plusMinus.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.plusMinus.ForeColor = System.Drawing.Color.White;
-            this.plusMinus.Location = new System.Drawing.Point(12, 392);
+            this.plusMinus.Location = new System.Drawing.Point(8, 403);
             this.plusMinus.Name = "plusMinus";
-            this.plusMinus.Size = new System.Drawing.Size(59, 50);
+            this.plusMinus.Size = new System.Drawing.Size(60, 50);
             this.plusMinus.TabIndex = 20;
             this.plusMinus.TabStop = false;
             this.plusMinus.Text = "±";
@@ -382,9 +382,9 @@
             this.cleanEntry.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cleanEntry.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.cleanEntry.ForeColor = System.Drawing.Color.White;
-            this.cleanEntry.Location = new System.Drawing.Point(12, 188);
+            this.cleanEntry.Location = new System.Drawing.Point(8, 179);
             this.cleanEntry.Name = "cleanEntry";
-            this.cleanEntry.Size = new System.Drawing.Size(59, 50);
+            this.cleanEntry.Size = new System.Drawing.Size(60, 50);
             this.cleanEntry.TabIndex = 21;
             this.cleanEntry.TabStop = false;
             this.cleanEntry.Text = "CE";
@@ -398,9 +398,9 @@
             this.percent.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.percent.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.percent.ForeColor = System.Drawing.Color.White;
-            this.percent.Location = new System.Drawing.Point(12, 137);
+            this.percent.Location = new System.Drawing.Point(8, 123);
             this.percent.Name = "percent";
-            this.percent.Size = new System.Drawing.Size(59, 50);
+            this.percent.Size = new System.Drawing.Size(60, 50);
             this.percent.TabIndex = 25;
             this.percent.TabStop = false;
             this.percent.Text = "%";
@@ -414,9 +414,9 @@
             this.squareRoot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.squareRoot.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.squareRoot.ForeColor = System.Drawing.Color.White;
-            this.squareRoot.Location = new System.Drawing.Point(69, 137);
+            this.squareRoot.Location = new System.Drawing.Point(74, 123);
             this.squareRoot.Name = "squareRoot";
-            this.squareRoot.Size = new System.Drawing.Size(59, 50);
+            this.squareRoot.Size = new System.Drawing.Size(60, 50);
             this.squareRoot.TabIndex = 24;
             this.squareRoot.TabStop = false;
             this.squareRoot.Text = " √";
@@ -430,9 +430,9 @@
             this.square.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.square.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.square.ForeColor = System.Drawing.Color.White;
-            this.square.Location = new System.Drawing.Point(126, 137);
+            this.square.Location = new System.Drawing.Point(140, 123);
             this.square.Name = "square";
-            this.square.Size = new System.Drawing.Size(59, 50);
+            this.square.Size = new System.Drawing.Size(60, 50);
             this.square.TabIndex = 23;
             this.square.TabStop = false;
             this.square.Text = "  x² ";
@@ -446,9 +446,9 @@
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(183, 137);
+            this.button7.Location = new System.Drawing.Point(206, 123);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(59, 50);
+            this.button7.Size = new System.Drawing.Size(60, 50);
             this.button7.TabIndex = 22;
             this.button7.TabStop = false;
             this.button7.Text = "1/x";
@@ -462,9 +462,9 @@
             this.one.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.one.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.one.ForeColor = System.Drawing.Color.White;
-            this.one.Location = new System.Drawing.Point(12, 239);
+            this.one.Location = new System.Drawing.Point(8, 235);
             this.one.Name = "one";
-            this.one.Size = new System.Drawing.Size(59, 50);
+            this.one.Size = new System.Drawing.Size(60, 50);
             this.one.TabIndex = 0;
             this.one.TabStop = false;
             this.one.Text = "1";
@@ -481,13 +481,14 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(57)))), ((int)(((byte)(62)))));
             this.panel1.Controls.Add(this.crop);
             this.panel1.Controls.Add(this.collapse);
             this.panel1.Controls.Add(this.close);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(250, 25);
+            this.panel1.Size = new System.Drawing.Size(274, 25);
             this.panel1.TabIndex = 27;
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             // 
@@ -498,7 +499,7 @@
             this.crop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.crop.ForeColor = System.Drawing.SystemColors.ControlText;
             this.crop.Image = ((System.Drawing.Image)(resources.GetObject("crop.Image")));
-            this.crop.Location = new System.Drawing.Point(202, 3);
+            this.crop.Location = new System.Drawing.Point(225, 3);
             this.crop.Name = "crop";
             this.crop.Size = new System.Drawing.Size(20, 20);
             this.crop.TabIndex = 3;
@@ -511,7 +512,7 @@
             this.collapse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.collapse.ForeColor = System.Drawing.SystemColors.ControlText;
             this.collapse.Image = ((System.Drawing.Image)(resources.GetObject("collapse.Image")));
-            this.collapse.Location = new System.Drawing.Point(178, 3);
+            this.collapse.Location = new System.Drawing.Point(201, 3);
             this.collapse.Name = "collapse";
             this.collapse.Size = new System.Drawing.Size(20, 20);
             this.collapse.TabIndex = 2;
@@ -525,7 +526,7 @@
             this.close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.close.ForeColor = System.Drawing.SystemColors.ControlText;
             this.close.Image = ((System.Drawing.Image)(resources.GetObject("close.Image")));
-            this.close.Location = new System.Drawing.Point(227, 3);
+            this.close.Location = new System.Drawing.Point(250, 3);
             this.close.Name = "close";
             this.close.Size = new System.Drawing.Size(20, 20);
             this.close.TabIndex = 1;
@@ -550,8 +551,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(57)))), ((int)(((byte)(62)))));
-            this.ClientSize = new System.Drawing.Size(250, 454);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(49)))), ((int)(((byte)(54)))));
+            this.ClientSize = new System.Drawing.Size(273, 460);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.percent);
             this.Controls.Add(this.squareRoot);
